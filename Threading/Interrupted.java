@@ -3,7 +3,7 @@ public class Interrupted extends Thread
 	public void run()
 	{
 		System.out.println("A1 : "+Thread.interrupted());// true-----> false
-		System.out.println("A2 : "+Thread.interrupted()); //false---->true
+		 System.out.println("A2 : "+Thread.interrupted()); //false---->true
 		//System.out.println(Thread.currentThread().isInterrupted());   //true
 		//System.out.println(Thread.currentThread().isInterrupted()); //true
 		try

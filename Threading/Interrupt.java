@@ -7,7 +7,7 @@ class Interrupt extends Thread
 			for(int i=1;i<=5;i++)
 			{
 				System.out.println(i);
-				Thread.sleep(1000);
+				//Thread.sleep(1000);
 			}
 		}
 		catch(Exception e)
